@@ -23,7 +23,7 @@ window.onload = function(){
 }
 
 var timerout = setTimeout(function () {
-    location.href = 'http://localhost:8080/BlogProject/index.jsp';
+    location.href = 'http://111.230.246.155/blog/index.jsp';
 },3000);
 
 
