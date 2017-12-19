@@ -22,6 +22,8 @@ window.onload = function(){
     author.innerHTML = sayings[mandomNumber].author;
 }
 
-
+var timerout = setTimeout(function () {
+    location.href = 'http://localhost:8080/BlogProject/index.jsp';
+},3000);
 
 
